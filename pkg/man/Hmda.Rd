@@ -14,7 +14,7 @@ A data frame with 2381 rows of 13 variables:
   \item{mcs}{mortgage credit score from 1 to 4 (a low value being a good score)}
   \item{pbcr}{1 if public bad credit score}
   \item{dmi}{1 if denied mortgage insurance}
-  \item{self}{1 if self emplyed}
+  \item{self}{1 if self employed}
   \item{single}{1 if the applicant is single}
   \item{uria}{1989 Massachusetts unemployment rate in the applicant's industry}
   \item{condominium}{1 if unit is a condominium}
@@ -23,16 +23,13 @@ A data frame with 2381 rows of 13 variables:
 }
 }
 \source{
-Hmda data in Ecdat package
+Hmda data in the Ecdat package
 }
 \usage{
 data(Hmda)
 }
 \description{
-The Boston HMDA data set in Ecdat, with yes/no converted to 1/0
-}
-\seealso{
-\code{\link[Ecdat:Hmda]{Hmda}}
+The Boston HMDA data set in the Ecdat package, with yes/no converted to 1/0
 }
 \author{
 \packageAuthor{loedata}

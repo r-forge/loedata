@@ -8,9 +8,9 @@
 A data frame with 792 rows of 24 variables:
 \describe{
   \item{id}{ID of region}
-  \item{metro}{Metropolitan region name (metrocities and provinces)}
+  \item{metro}{Metropolitan region name (metro cities and provinces)}
   \item{region}{Region name}
-  \item{type}{1=si (non-metropolitan cities), 2=gun, 3=gu in metrocities and provinces}
+  \item{type}{1=si (non-metropolitan cities), 2=gun, 3=gu in metro cities and provinces}
   \item{year}{Year}
   \item{grdp}{gross regional GDP}
   \item{regpop}{population}

@@ -21,7 +21,7 @@ A data frame with 2073 rows and 24 variables:
   \item{age}{=2018-estyear}
   \item{inkorea}{=1 if the firm operates in Korea}
   \item{status}{="000" if firm information is available}
-  \item{nemp}{number of empolyees}
+  \item{nemp}{number of employees}
   \item{totsal}{total annual salary paid (sum)}
   \item{avgten}{average tenure in years}
   \item{avgsal}{=totsal/nemp}
@@ -33,7 +33,7 @@ A data frame with 2073 rows and 24 variables:
 }
 }
 \source{
-\url{https://opendart.fss.or.kr}
+opendart.fss.or.kr
 }
 \usage{
 data(Firmdata)

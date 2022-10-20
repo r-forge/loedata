@@ -16,7 +16,7 @@ A data frame with 820 rows and 35 variables:
   \item{southj}{1 if in southern NJ}
   \item{centralj}{1 if in central NJ}
   \item{northj}{1 if in northern NJ}
-  \item{pa1}{1 if in PA, northeast suburbs of Phila}
+  \item{pa1}{1 if in PA, northeast suburbs of Philadelphia}
   \item{pa2}{1 if in PA, Easton etc}
   \item{shore}{1 if on NJ shore}
   \item{type2}{type 2nd interview 1=phone; 2=personal}
@@ -25,7 +25,7 @@ A data frame with 820 rows and 35 variables:
   \item{ncalls}{number of call-backs*}
   \item{empft}{# full-time employees}
   \item{emppt}{# part-time employees}
-  \item{nmgrs}{# managers/ass't managers}
+  \item{nmgrs}{# managers/assistant managers}
   \item{fte}{full time equivalent, FTE = empft + nmgrs + 0-.5*emppt [+]}
   \item{dfte}{FTE for after - FTE for before [+]}
   \item{wage_st}{starting wage ($/hr)}
@@ -45,7 +45,7 @@ A data frame with 820 rows and 35 variables:
 }
 }
 \source{
-\url{http://davidcard.berkeley.edu/data_sets.html}
+\url{https://davidcard.berkeley.edu/data_sets.html}
 }
 \usage{
 data(Fastfood)

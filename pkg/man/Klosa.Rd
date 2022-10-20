@@ -20,7 +20,7 @@ A data frame with 2153 rows of 45 variables:
   \item{religion}{1 if has religion}
   \item{meeting1}{1 if in religious meeting groups}
   \item{meeting2}{1 if in social gathering groups}
-  \item{meeting3}{1 if in leasure/sports groups, etc.}
+  \item{meeting3}{1 if in leisure/sports groups, etc.}
   \item{meeting4}{1 if in union/fraternity groups, etc.}
   \item{meeting5}{1 if in volunteer service groups}
   \item{meeting6}{1 if in political/civic/interest groups}
@@ -35,7 +35,7 @@ A data frame with 2153 rows of 45 variables:
   \item{bmi}{BMI}
   \item{smoke}{# of cigarettes smoked per day}
   \item{working}{1 if working}
-  \item{jobtype}{job type; one of waged empolyee, self-employed, unemployed, unpaid family worker}
+  \item{jobtype}{job type; one of waged employee, self-employed, unemployed, unpaid family worker}
   \item{jobseeking}{1 if seeking a job}
   \item{receive}{amount received from children last year (10k KRW)}
   \item{give}{amount given to children last year (10k KRW)}

@@ -7,7 +7,7 @@
 \format{
 A data frame with 25 rows and 2 variables:
 \describe{
-  \item{volume}{the number of equal spaces in the shorter leg, that contained the same parcal of air diversely extended}
+  \item{volume}{the number of equal spaces in the shorter leg, that contained the same parcel of air diversely extended}
   \item{pressure}{the pressure sustained by the included air}
 }
 }

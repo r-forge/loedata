@@ -15,7 +15,7 @@ NULL
 #' @source \url{https://www.chemteam.info/GasLaw/Gas-Boyle-Data.html}
 #' @format A data frame with 25 rows and 2 variables:
 #' \describe{
-#'   \item{volume}{the number of equal spaces in the shorter leg, that contained the same parcal of air diversely extended}
+#'   \item{volume}{the number of equal spaces in the shorter leg, that contained the same parcel of air diversely extended}
 #'   \item{pressure}{the pressure sustained by the included air}
 #' }
 #' @usage data(Boyle)
@@ -74,7 +74,7 @@ NULL
 #'   \item{southj}{1 if in southern NJ}
 #'   \item{centralj}{1 if in central NJ}
 #'   \item{northj}{1 if in northern NJ}
-#'   \item{pa1}{1 if in PA, northeast suburbs of Phila}
+#'   \item{pa1}{1 if in PA, northeast suburbs of Philadelphia}
 #'   \item{pa2}{1 if in PA, Easton etc}
 #'   \item{shore}{1 if on NJ shore}
 #'   \item{type2}{type 2nd interview 1=phone; 2=personal}
@@ -83,7 +83,7 @@ NULL
 #'   \item{ncalls}{number of call-backs*}
 #'   \item{empft}{# full-time employees}
 #'   \item{emppt}{# part-time employees}
-#'   \item{nmgrs}{# managers/ass't managers}
+#'   \item{nmgrs}{# managers/assistant managers}
 #'   \item{fte}{full time equivalent, FTE = empft + nmgrs + 0-.5*emppt [+]}
 #'   \item{dfte}{FTE for after - FTE for before [+]}
 #'   \item{wage_st}{starting wage ($/hr)}
@@ -112,7 +112,7 @@ NULL
 #'
 #' Korean firm data for 2018 in KOSPI and KOSDAQ
 #'
-#' @source \url{https://opendart.fss.or.kr}
+#' @source opendart.fss.or.kr
 #' @format A data frame with 2073 rows and 24 variables:
 #' \describe{
 #'   \item{corpcode}{Firm code}
@@ -129,7 +129,7 @@ NULL
 #'   \item{age}{=2018-estyear}
 #'   \item{inkorea}{=1 if the firm operates in Korea}
 #'   \item{status}{="000" if firm information is available}
-#'   \item{nemp}{number of empolyees}
+#'   \item{nemp}{number of employees}
 #'   \item{totsal}{total annual salary paid (sum)}
 #'   \item{avgten}{average tenure in years}
 #'   \item{avgsal}{=totsal/nemp}
@@ -223,9 +223,9 @@ NULL
 
 #' The Boston HMDA data set
 #'
-#' The Boston HMDA data set in Ecdat, with yes/no converted to 1/0
+#' The Boston HMDA data set in the Ecdat package, with yes/no converted to 1/0
 #'
-#' @source Hmda data in Ecdat package
+#' @source Hmda data in the Ecdat package
 #' @format A data frame with 2381 rows of 13 variables:
 #' \describe{
 #'   \item{dir}{debt payments to total income ratio}
@@ -235,7 +235,7 @@ NULL
 #'   \item{mcs}{mortgage credit score from 1 to 4 (a low value being a good score)}
 #'   \item{pbcr}{1 if public bad credit score}
 #'   \item{dmi}{1 if denied mortgage insurance}
-#'   \item{self}{1 if self emplyed}
+#'   \item{self}{1 if self employed}
 #'   \item{single}{1 if the applicant is single}
 #'   \item{uria}{1989 Massachusetts unemployment rate in the applicant's industry}
 #'   \item{condominium}{1 if unit is a condominium}
@@ -243,7 +243,6 @@ NULL
 #'   \item{deny}{1 if mortgage application denied}
 #' }
 #' @usage data(Hmda)
-#' @seealso \code{\link[Ecdat:Hmda]{Hmda}}
 #' @author \packageAuthor{loedata}
 "Hmda"
 
@@ -303,7 +302,7 @@ NULL
 #'   \item{religion}{1 if has religion}
 #'   \item{meeting1}{1 if in religious meeting groups}
 #'   \item{meeting2}{1 if in social gathering groups}
-#'   \item{meeting3}{1 if in leasure/sports groups, etc.}
+#'   \item{meeting3}{1 if in leisure/sports groups, etc.}
 #'   \item{meeting4}{1 if in union/fraternity groups, etc.}
 #'   \item{meeting5}{1 if in volunteer service groups}
 #'   \item{meeting6}{1 if in political/civic/interest groups}
@@ -318,7 +317,7 @@ NULL
 #'   \item{bmi}{BMI}
 #'   \item{smoke}{# of cigarettes smoked per day}
 #'   \item{working}{1 if working}
-#'   \item{jobtype}{job type; one of waged empolyee, self-employed, unemployed, unpaid family worker}
+#'   \item{jobtype}{job type; one of waged employee, self-employed, unemployed, unpaid family worker}
 #'   \item{jobseeking}{1 if seeking a job}
 #'   \item{receive}{amount received from children last year (10k KRW)}
 #'   \item{give}{amount given to children last year (10k KRW)}
@@ -387,9 +386,9 @@ NULL
 #' @format A data frame with 264 rows of 23 variables:
 #' \describe{
 #'   \item{id}{ID of region}
-#'   \item{metro}{Metropolitan region name (metrocities and provinces)}
+#'   \item{metro}{Metropolitan region name (metro cities and provinces)}
 #'   \item{region}{Region name}
-#'   \item{type}{1=si (non-metropolitan cities), 2=gun, 3=gu in metrocities and provinces}
+#'   \item{type}{1=si (non-metropolitan cities), 2=gun, 3=gu in metro cities and provinces}
 #'   \item{grdp}{gross regional GDP}
 #'   \item{regpop}{population}
 #'   \item{popgrowth}{population growth}
@@ -422,9 +421,9 @@ NULL
 #' @format A data frame with 792 rows of 24 variables:
 #' \describe{
 #'   \item{id}{ID of region}
-#'   \item{metro}{Metropolitan region name (metrocities and provinces)}
+#'   \item{metro}{Metropolitan region name (metro cities and provinces)}
 #'   \item{region}{Region name}
-#'   \item{type}{1=si (non-metropolitan cities), 2=gun, 3=gu in metrocities and provinces}
+#'   \item{type}{1=si (non-metropolitan cities), 2=gun, 3=gu in metro cities and provinces}
 #'   \item{year}{Year}
 #'   \item{grdp}{gross regional GDP}
 #'   \item{regpop}{population}
