@@ -20,7 +20,4 @@ data(Ivdata)
 \description{
 Artificial data for studying IV estimation
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

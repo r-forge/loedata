@@ -42,7 +42,4 @@ data(RegkoPanel)
 \description{
 Korean regional panel data (2014-2016)
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

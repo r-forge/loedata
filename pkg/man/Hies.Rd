@@ -47,7 +47,4 @@ A subset (30 <= age <= 39) of Korea Household Income and Expenditure Survey 2016
 \seealso{
 \code{\link{Hcons}}
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

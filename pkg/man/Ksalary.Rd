@@ -28,7 +28,4 @@ data(Ksalary)
 \description{
 Average salary for Korean firms in 2012
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

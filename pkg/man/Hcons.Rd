@@ -24,7 +24,4 @@ Household consumption shares of communication and recreation sector in Korean Ho
 \seealso{
 \code{\link{Hies}}
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

@@ -41,7 +41,4 @@ data(Regko)
 \description{
 Korean regional data for 2014-2016 average
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

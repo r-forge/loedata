@@ -31,7 +31,4 @@ Parent-level version of Galton's family data
 \seealso{
 \code{HistData::GaltonFamilies}
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

@@ -3,7 +3,6 @@
 #' This package contains data sets for Lectures on Econometrics by Chirok Han
 #' @docType data
 #' @name loedata
-#' @author \packageAuthor{loedata}
 #' @aliases loedata loedata-package
 #' @seealso \code{help(package="loedata")}
 NULL
@@ -19,7 +18,6 @@ NULL
 #'   \item{pressure}{the pressure sustained by the included air}
 #' }
 #' @usage data(Boyle)
-#' @author \packageAuthor{loedata}
 "Boyle"
 
 #' CO2 emissions
@@ -35,7 +33,6 @@ NULL
 #'   \item{co2pc}{CO2 emissions per capita (ton)}
 #' }
 #' @usage data(Ekc)
-#' @author \packageAuthor{loedata}
 "Ekc"
 
 #' Death rate and related variables for Korean districts
@@ -56,7 +53,6 @@ NULL
 #'   \item{deathrate}{= death/regpop*1000}
 #' }
 #' @usage data(Death)
-#' @author \packageAuthor{loedata}
 "Death"
 
 #' Card and Krueger (1994) fastfood data set
@@ -105,7 +101,6 @@ NULL
 #' @details See \code{attr(Fastfood, "desc")}. [+] are added by Chirok Han.
 #' @references
 #' Card, D., and A. Krueger (1994). Minimum Wages and Employment: A Case Study of the Fast Food Industry in New Jersey and Pennsylvania, American Economic Review 84, 772-793.
-#' @author \packageAuthor{loedata}
 "Fastfood"
 
 #' Open DART firm data
@@ -140,7 +135,6 @@ NULL
 #'   \item{netinc}{net income in KRW}
 #' }
 #' @usage data(Firmdata)
-#' @author \packageAuthor{loedata}
 "Firmdata"
 
 #' Galton family data
@@ -163,7 +157,6 @@ NULL
 #' }
 #' @usage data(Galtonpar)
 #' @seealso \code{HistData::GaltonFamilies}
-#' @author \packageAuthor{loedata}
 "Galtonpar"
 
 #' Household consumption shares
@@ -179,7 +172,6 @@ NULL
 #' }
 #' @usage data(Hcons)
 #' @seealso \code{\link{Hies}}
-#' @author \packageAuthor{loedata}
 "Hcons"
 
 #' Household Income and Expenditure Survey 2016
@@ -218,7 +210,6 @@ NULL
 #' }
 #' @usage data(Hies)
 #' @seealso \code{\link{Hcons}}
-#' @author \packageAuthor{loedata}
 "Hies"
 
 #' The Boston HMDA data set
@@ -243,7 +234,6 @@ NULL
 #'   \item{deny}{1 if mortgage application denied}
 #' }
 #' @usage data(Hmda)
-#' @author \packageAuthor{loedata}
 "Hmda"
 
 #' Artificial data for studying IV estimation
@@ -259,7 +249,6 @@ NULL
 #'   \item{z2b}{z2b variable}
 #' }
 #' @usage data(Ivdata)
-#' @author \packageAuthor{loedata}
 "Ivdata"
 
 #' Subset of 2011 KLIPS
@@ -279,7 +268,6 @@ NULL
 #'   \item{married}{1 if married}
 #' }
 #' @usage data(Klips)
-#' @author \packageAuthor{loedata}
 "Klips"
 
 #' KLoSA wave 4
@@ -338,7 +326,6 @@ NULL
 #'   \item{voluntary}{hours of volunteer service}
 #' }
 #' @usage data(Klosa)
-#' @author Goeun Lee, \packageAuthor{loedata}
 "Klosa"
 
 #' Average salary
@@ -360,7 +347,6 @@ NULL
 #'   \item{kosdaq}{=1 if KOSDAQ}
 #' }
 #' @usage data(Ksalary)
-#' @author \packageAuthor{loedata}
 "Ksalary"
 
 #' Public servants and financial independence
@@ -375,7 +361,6 @@ NULL
 #'   \item{finind}{financial independence index, = (local tax + other income)/budget * 100}
 #' }
 #' @usage data(Pubserv)
-#' @author \packageAuthor{loedata}
 "Pubserv"
 
 #' Korean regional data (2014-2016 averages)
@@ -410,7 +395,6 @@ NULL
 #'   \item{accpc}{=vehipc*accpv, # of accidents per 1000 pop}
 #' }
 #' @usage data(Regko)
-#' @author \packageAuthor{loedata}
 "Regko"
 
 #' Korean regional panel data (2014-2016)
@@ -446,5 +430,4 @@ NULL
 #'   \item{accpc}{=vehipc*accpv, # of accidents per 1000 pop}
 #' }
 #' @usage data(RegkoPanel)
-#' @author \packageAuthor{loedata}
 "RegkoPanel"

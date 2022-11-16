@@ -27,7 +27,4 @@ data(Death)
 \description{
 Death rate and related variables for Korean districts for 2008-2010
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

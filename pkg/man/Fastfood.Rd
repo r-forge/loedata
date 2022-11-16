@@ -59,7 +59,4 @@ See \code{attr(Fastfood, "desc")}. [+] are added by Chirok Han.
 \references{
 Card, D., and A. Krueger (1994). Minimum Wages and Employment: A Case Study of the Fast Food Industry in New Jersey and Pennsylvania, American Economic Review 84, 772-793.
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

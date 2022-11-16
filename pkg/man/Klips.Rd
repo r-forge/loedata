@@ -26,7 +26,4 @@ data(Klips)
 \description{
 Subset (30 <= age <= 39, nonzero income, 9 <= educ < 20) of 2011 KLIPS
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

@@ -65,7 +65,4 @@ data(Klosa)
 \description{
 Korea Longitudinal Study of Aging wave 4 (2012)
 }
-\author{
-Goeun Lee, \packageAuthor{loedata}
-}
 \keyword{datasets}

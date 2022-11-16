@@ -11,6 +11,3 @@ This package contains data sets for Lectures on Econometrics by Chirok Han
 \seealso{
 \code{help(package="loedata")}
 }
-\author{
-\packageAuthor{loedata}
-}

@@ -41,7 +41,4 @@ data(Firmdata)
 \description{
 Korean firm data for 2018 in KOSPI and KOSDAQ
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

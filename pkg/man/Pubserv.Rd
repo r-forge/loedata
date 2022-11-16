@@ -21,7 +21,4 @@ data(Pubserv)
 \description{
 Korean regional public servants and financial independence in 2010
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

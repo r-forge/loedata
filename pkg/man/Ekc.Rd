@@ -22,7 +22,4 @@ data(Ekc)
 \description{
 CO2 emissions per capita and GDP per capita in 2005
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

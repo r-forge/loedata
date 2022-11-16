@@ -20,7 +20,4 @@ data(Boyle)
 \description{
 Robert Boyle's data set
 }
-\author{
-\packageAuthor{loedata}
-}
 \keyword{datasets}

@@ -1,11 +1,13 @@
 Package: loedata
 Type: Package
-Title: Data Package for Lectures on Econometrics
-Version: 1.0.1
-Author: Chirok Han
-Maintainer: Chirok Han <chirokhan@korea.ac.kr>
-Description: Data for Lectures on Econometrics 4e.
+Title: Data Sets from "Lectures on Econometrics" by Chirok Han
+Version: 1.0.2
+Authors@R: c(person("Chirok", "Han", role = c("aut", "cre", "cph"),
+                    email = "chirokhan@korea.ac.kr"))
+Description: Data sets for Chirok Han (2022, ISBN:979-11-303-1497-6,
+  "Lectures on Econometrics"). Students, teachers, and self-learners will
+  find the data sets essential for replicating the results in the book.
 Depends: R (>= 3.0)
 License: GPL-3
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
