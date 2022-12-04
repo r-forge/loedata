@@ -12,7 +12,7 @@ A data frame with 264 rows of 23 variables:
   \item{region}{Region name}
   \item{type}{1=si (non-metropolitan cities), 2=gun, 3=gu in metro cities and provinces}
   \item{grdp}{gross regional GDP}
-  \item{regpop}{population}
+  \item{regpop}{registered population (end of year, by registration record, excl. foreigners)}
   \item{popgrowth}{population growth}
   \item{eq5d}{the EQ-5D health index}
   \item{deaths}{number of registered deaths}
@@ -27,7 +27,10 @@ A data frame with 264 rows of 23 variables:
   \item{accpv}{# of accidents per 1000 vehicles}
   \item{dumppc}{waste dump per person, kg/day}
   \item{stratio}{# of students per teacher}
-  \item{deathrate}{# of deaths per 100,000 pop}
+  \item{deathrate}{# of deaths per 100,000 mid-year population (not equal to deaths/regpop*1e5)}
+  \item{nbirth}{# of births}
+  \item{cbrate}{Crude birth rate (per 1,000 pop)}
+  \item{tfrate}{Total fertility rate}
   \item{pctmale}{=gcmp/(gcomp+100)*100, \% of male}
   \item{accpc}{=vehipc*accpv, # of accidents per 1000 pop}
 }
@@ -40,5 +43,8 @@ data(Regko)
 }
 \description{
 Korean regional data for 2014-2016 average
+}
+\seealso{
+\code{RegkoPanel}
 }
 \keyword{datasets}

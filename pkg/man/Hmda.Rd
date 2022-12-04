@@ -31,4 +31,7 @@ data(Hmda)
 \description{
 The Boston HMDA data set in the Ecdat package, with yes/no converted to 1/0
 }
+\seealso{
+\code{Ecdat::Hmda}
+}
 \keyword{datasets}
